@@ -14,7 +14,7 @@ sudo dnf install -y wget curl net-tools openssl-devel gcc ruby-devel sqlite-deve
 sudo dnf install -y epel-release wget rsync vim screen ethtool iftop sysstat iotop telnet net-tools iptables-services
 ```
 
-# Set up time synchronization
+# Installing Chronyd service 
 ```
 sudo dnf install -y chrony
 sudo systemctl enable chronyd
