@@ -1,10 +1,18 @@
 * # CONFIGURING OPENNEBULA 6.4.5 ON ALMA LINUX 9 with mysql 8:
 
 # Update system and install dependencies
+```
 sudo dnf update -y
+```
+```
 sudo dnf install -y epel-release
+```
+```
 sudo dnf install -y wget curl net-tools openssl-devel gcc ruby-devel sqlite-devel systemd-devel libxml2-devel libxslt-devel libcurl-devel
+```
+```
 sudo dnf install -y epel-release wget rsync vim screen ethtool iftop sysstat iotop telnet net-tools iptables-services
+```
 
 # Set up time synchronization
 sudo dnf install -y chrony
