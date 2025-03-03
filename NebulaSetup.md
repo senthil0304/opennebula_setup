@@ -1,4 +1,4 @@
-* # CONFIGURING OPENNEBULA 6.4.5 ON ALMA LINUX 9 with mysql 8:
+# CONFIGURING OPENNEBULA 6.4.5 ON ALMA LINUX 9 with mysql 8:
 
 # Update system and install dependencies
 ```
