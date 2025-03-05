@@ -104,9 +104,9 @@ sudo yum install -y httpd httpd-tools mod_ssl mod_passenger memcached
 
 # Copy From Refference Server : 
 ```
-scp -r main_makeup/one/* root@10.10.21.80:/etc/one/
-scp -r main_makeup/httpd/* root@10.10.21.80:/etc/httpd/
-scp -r main_makeup/httpd/ssl2021/ root@10.10.21.80:/etc/httpd/
+scp -r main_backup/one/* root@10.10.21.80:/etc/one/
+scp -r main_backup/httpd/* root@10.10.21.80:/etc/httpd/
+scp -r main_backup/httpd/ssl2021/ root@10.10.21.80:/etc/httpd/
 scp -r /var/lib/one/remotes/* root@10.10.21.80:/var/lib/one/remotes/
 scp -r /etc/my.cnf root@10.10.21.80:/etc/my.cnf
 scp -r config root@10.10.21.80:/var/lib/one/
